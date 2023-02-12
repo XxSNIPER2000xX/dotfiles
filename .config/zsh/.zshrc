@@ -2,7 +2,7 @@
 
 # COLOURS AND PS1:
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[green]%}%n%{$fg[yellow]%}@%{$fg[magenta]%}%M %{$fg[blue]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[green]%}%n%{$fg[yellow]%}@%{$fg[magenta]%}%M%{$fg[white]%}:%{$fg[blue]%}%~%{$reset_color%}$%b "
 
 # HISTORY:
 HISTSIZE=1000
